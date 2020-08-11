@@ -11,15 +11,11 @@ https://github.com/ibm-messaging/event-streams-samples/tree/master/kafka-nodejs-
 ## Lab Steps
 
 ```bash
-git clone git@github.ibm.com:InnovationAndGrowth/kafka-lab.git
+git clone git@github.com:msalimbe1/event-stream-lab.git
 ```
 
 ```bash
-cd kafka-lab
-```
-
-```bash
-cd kafka-nodejs-console-sample
+cd event-stream-lab
 ```
 
 ```bash
