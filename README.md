@@ -1,5 +1,24 @@
 # KAFKA LAB
 
+## Prerequisites
+
+Node.js 8.X LTS
+[node-gyp](https://www.npmjs.com/package/node-gyp)
+Node-rdkafka will build librdkafka automatically. You must ensure you have the dependencies listed below installed. For more details, see librdakfka's instructions.
+
+Linux
+
+- openssl-dev
+- libsasl2-dev
+- libsasl2-modules
+- C++ toolchain
+
+macOS
+
+- Brew
+- Apple Xcode command line tools
+- openssl via Brew
+
 ## DOCS
 
 https://github.com/ibm-messaging/event-streams-samples/blob/master/kafka-nodejs-console-sample/docs/Local.md
@@ -38,6 +57,13 @@ export kafka_brokers_sasl="broker-3-n9lxwtrxg5fh08fr.kafka.svc05.us-south.events
 export api_key=
 export ca_location=/usr/local/etc/openssl/cert.pem
 ```
+
+**Note**
+`ca_location` is the path where the trusted SSL certificates are stored on your machine and is therefore system dependent. For example:
+
+> `Ubuntu`: /etc/ssl/certs  
+> `RedHat`: /etc/pki/tls/cert.pem  
+> `macOS`: /usr/local/etc/openssl/cert.pem from openssl installed by brew
 
 - From a terminal execute app in `producer` mode
 
