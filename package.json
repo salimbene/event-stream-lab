@@ -33,7 +33,7 @@
     "node-rdkafka"
   ],
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "node-rdkafka": "2.7.4"
   },
   "engines": {
